@@ -12,22 +12,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
-  margin: 50px;
-}
-
 .App table {
   width: 100%;
   text-align: center;
 }
 
 .App td {
-  padding: 20px;
+  padding: 20px 10px;
   background: #eee;
 }
 
 .App th {
-  padding: 20px;
+  padding: 20px 10px;
   background: #ddd;
 }
 
@@ -52,4 +48,11 @@ nav li {
 nav li a {
   text-decoration: none;
   color: white;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
 }
