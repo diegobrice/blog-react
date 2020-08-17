@@ -14,7 +14,6 @@ export const traerTodos = () => async (dispatch) => {
       payload: data,
     });
   } catch (error) {
-    console.error(error);
     dispatch({
       type: ERROR,
       payload: error.message,

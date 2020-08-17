@@ -60,3 +60,20 @@ nav li a {
 .center {
   text-align: center;
 }
+
+.pub_titulo {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid #ddd;
+  margin: 30px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pub_titulo li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: rgba(0, 0, 0, 0.03);
+  list-style: none;
+  font-size: 14px;
+}
