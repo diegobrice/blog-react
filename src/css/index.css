@@ -77,3 +77,20 @@ nav li a {
   list-style: none;
   font-size: 14px;
 }
+
+.contenedor {
+  margin: 20px 0px 10px;
+}
+
+.contenedor_tareas {
+  padding: 10px;
+}
+
+.contenedor_tareas input {
+  margin: 5px;
+}
+
+
+.m_left {
+  margin-left: 20px;
+}
